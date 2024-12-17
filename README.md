@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: forgetting to install necessary system packages before installing Python packages with system dependencies.  The original `Dockerfile` lacks the required system packages resulting in a build failure. The `Dockerfile-fixed` provides the corrected version.
